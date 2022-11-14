@@ -7,6 +7,7 @@
 
 <b> ▶️ App Video </b>
 
+https://user-images.githubusercontent.com/98838876/201740751-d9cf0a07-21b3-4d9a-9358-92410bc2c1bd.mp4
 
 <b> :no_entry: Manin StoryBoard :no_entry: </b>
 
@@ -59,5 +60,5 @@
 
 
 
-https://user-images.githubusercontent.com/98838876/201740751-d9cf0a07-21b3-4d9a-9358-92410bc2c1bd.mp4
+
 
