@@ -1,12 +1,12 @@
 # News-Swift-ios-16
-<b> ▶️ In this app we will to build an Apple News like app from scratch in UIkit and Swift.   </b>
+<b> ▶️ In this app we will to build an Apple News like app from scratch in UIkit and Swift.</b>
+
 <b> ▶️ We will hook up an API, create a custom UI, cache images, and more. </b>
 
 <b> :round_pushpin: You can access all codes. </b>
 
 <b> ▶️ App Video </b>
 
-https://user-images.githubusercontent.com/98838876/201740403-d4461190-99e9-41ee-b9a4-1b9560cd7699.mp4
 
 <b> :no_entry: Manin StoryBoard :no_entry: </b>
 
@@ -56,4 +56,8 @@ https://user-images.githubusercontent.com/98838876/201740403-d4461190-99e9-41ee-
 
 
 
+
+
+
+https://user-images.githubusercontent.com/98838876/201740751-d9cf0a07-21b3-4d9a-9358-92410bc2c1bd.mp4
 
