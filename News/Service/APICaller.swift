@@ -52,7 +52,6 @@ final class APICaller
 }
 
 // Models
-
 struct APIResponse : Codable
 {
     let articles: [Article]
