@@ -32,3 +32,23 @@
 ![image](https://user-images.githubusercontent.com/98838876/201738261-c9cafe2d-93bf-4a97-98dc-ec2dae6c03c0.png)
 
 <b> ViewController </b>
+
+SafariServices Import
+
+![image](https://user-images.githubusercontent.com/98838876/201738951-6e474914-e1f7-4c75-8e01-050b0f8a0ebb.png)
+
+<b> Created TableView </b>
+
+![image](https://user-images.githubusercontent.com/98838876/201739050-6ad845a4-9779-4d06-937b-444b9065790e.png)
+
+<b> API Check Controller </b>
+
+![image](https://user-images.githubusercontent.com/98838876/201739147-79baf3c6-f154-4eef-9ce3-a9bb9fea0e3a.png)
+
+<b> TableView Delegate Setup </b>
+
+![image](https://user-images.githubusercontent.com/98838876/201739273-9726fa2f-230b-4196-a91b-b3cd499a1ea5.png)
+
+
+
+
