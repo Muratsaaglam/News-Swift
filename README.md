@@ -6,8 +6,9 @@
 
 <b> ▶️ App Video </b>
 
+https://user-images.githubusercontent.com/98838876/201740403-d4461190-99e9-41ee-b9a4-1b9560cd7699.mp4
 
-<b> Manin StoryBoard </b>
+<b> :no_entry: Manin StoryBoard :no_entry: </b>
 
 ![image](https://user-images.githubusercontent.com/98838876/201738766-bb5a6946-0ce5-4b27-84ba-db52b6971fd9.png)
 
@@ -48,6 +49,10 @@
 <b> :round_pushpin: TableView Delegate Setup </b>
 
 ![image](https://user-images.githubusercontent.com/98838876/201739273-9726fa2f-230b-4196-a91b-b3cd499a1ea5.png)
+
+
+
+
 
 
 
