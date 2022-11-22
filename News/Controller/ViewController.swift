@@ -17,6 +17,7 @@ import SafariServices
 
 class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
     
+    // TableView Oluşturuldu.
     private let tableView: UITableView =
     {
         let table = UITableView()
@@ -69,7 +70,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         }
     }
     
-    //TableView-1
+    //TableView Protokolleri İçin Fonksiyonlar Kullanıldı.
     override func viewDidLayoutSubviews()
     {
         super.viewDidLayoutSubviews()
