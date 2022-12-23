@@ -1,4 +1,4 @@
-# News-Swift-ios-16
+# News-Swift
 <b> ▶️ In this app we will to build an Apple News like app from scratch in UIkit and Swift.</b>
 
 <b> ▶️ We will hook up an API, create a custom UI, cache images, and more. </b>
