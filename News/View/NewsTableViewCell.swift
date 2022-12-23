@@ -7,8 +7,10 @@
 
 import UIKit
 
+    //MARK: - TableView Hücrelerinden Görünecek Değerler
 class NewsTableViewCellModel
 {
+
     let title : String
     let subtitle : String
     let imageURL: URL?
@@ -24,10 +26,10 @@ class NewsTableViewCellModel
         self.title = title
         self.subtitle = subtitle
         self.imageURL = imageURL
-        
     }
 }
 
+    //MARK: - Alt Görünümler
 class NewsTableViewCell: UITableViewCell
 {
     static let identifier = "NewsTableViewCell"
@@ -94,7 +96,7 @@ class NewsTableViewCell: UITableViewCell
         newsTitleLable.text = viewModel.title
         subtitleLabel.text = viewModel.subtitle
         
-        //Image
+        //MARK: - Image
         if let data = viewModel.imageData
         {
             newsImageView.image = UIImage(data: data)

@@ -5,19 +5,16 @@
 //  Created by Murat Sağlam on 6.11.2022.
 //
 
-// TableView
-// Custom Cell
-// Apı Caller
-// https://newsapi.org/v2/top-headlines?country=TR&apiKey=8549c57c277f4c19a4fadb8b1ff48c38 //
-// Open the News Story
-// Seach For News Stories
+// MARK: - API Link
+// https://newsapi.org/v2/top-headlines?country=TR&apiKey=8549c57c277f4c19a4fadb8b1ff48c38
 
 import UIKit
 import SafariServices
 
-class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
+class ViewController: UIViewController
+{
     
-    // TableView Oluşturuldu.
+    // MARK: - TableView Oluşturuldu
     private let tableView: UITableView =
     {
         let table = UITableView()
@@ -32,13 +29,16 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     {
         super.viewDidLoad()
         title = "News"
+        
+        // MARK: -
         view.addSubview(tableView)
         view.backgroundColor = .systemBackground
         
+        // MARK: - Delegate
         tableView.delegate = self
         tableView.dataSource = self
         
-        // API Check
+        // MARK: - API Kontrol
         fetchTopStories()
 
     }
@@ -69,8 +69,12 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
             }
         }
     }
-    
-    //TableView Protokolleri İçin Fonksiyonlar Kullanıldı.
+}
+
+    //MARK: TableView Protokoller
+extension ViewController: UITableViewDelegate, UITableViewDataSource
+{
+    //MARK: TableView Görünüm
     override func viewDidLayoutSubviews()
     {
         super.viewDidLayoutSubviews()
@@ -108,12 +112,11 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         
     }
     
+    //MARK: Maximum 150 Haber Sıralanması
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat
     {
         return 150
     }
-  
 }
-
 
 
