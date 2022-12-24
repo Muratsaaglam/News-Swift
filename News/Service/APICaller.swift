@@ -7,6 +7,7 @@
 
 import Foundation
 
+    //MARK: - URL İstek Atılıp, Gelen Veriyi Diziye Göndermek
 final class APICaller
 {
     static let shared = APICaller()
@@ -51,7 +52,7 @@ final class APICaller
     
 }
 
-// Models
+    //MARK: - Model
 struct APIResponse : Codable
 {
     let articles: [Article]

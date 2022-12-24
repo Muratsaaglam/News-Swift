@@ -83,6 +83,7 @@ class NewsTableViewCell: UITableViewCell
 
     }
     
+    // MARK: - Hücreleri Temizleyerek Yeniden Dolduruyoruz
     override func prepareForReuse()
     {
         super.prepareForReuse()
@@ -96,7 +97,7 @@ class NewsTableViewCell: UITableViewCell
         newsTitleLable.text = viewModel.title
         subtitleLabel.text = viewModel.subtitle
         
-        //MARK: - Image
+        //MARK: - Görsel Kontrol - Görseli Tekrar İndirmemek - Hızlı Akış Sağlamak
         if let data = viewModel.imageData
         {
             newsImageView.image = UIImage(data: data)

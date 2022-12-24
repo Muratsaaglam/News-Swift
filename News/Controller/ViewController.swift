@@ -22,6 +22,7 @@ class ViewController: UIViewController
         return table
     }()
     
+    // MARK: - Article Diziyi Oluşturarak Gelen Veriyi Diziye Ekledik.
     private var articles = [Article]()
     private var viewModels = [NewsTableViewCellModel]()
     
@@ -30,7 +31,7 @@ class ViewController: UIViewController
         super.viewDidLoad()
         title = "News"
         
-        // MARK: -
+        // MARK: - TableView Özellikleri
         view.addSubview(tableView)
         view.backgroundColor = .systemBackground
         
@@ -43,7 +44,7 @@ class ViewController: UIViewController
 
     }
 
-    //API Check Controller
+    //MARK: - API Görünümleri Denetlemek
     private func fetchTopStories()
     {
         APICaller.shared.getTopStroies
